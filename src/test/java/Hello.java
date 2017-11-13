@@ -9,7 +9,7 @@ public class Hello{
         System.out.println("Witaj świecie!");
         do {
 
-            System.out.println( "Jeżeli chcesz zakończyć wpisz exit i naciśnij enter " + "jeśli nie, wybierz inny znak. ");
+            System.out.println( "Jeżeli chcesz zakończyć wpisz exit i naciśnij enter ");
             opcja = skaner.next();
         } while (!opcja.equalsIgnoreCase("exit"));
 
